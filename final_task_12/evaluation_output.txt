@@ -1,0 +1,16 @@
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_12/evaluate_task12.py final_task_12/task1_train.predict solutions/task1_train.solution
+Precision : 0.9324
+Recall : 0.8357
+F1 : 0.8814
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_12/evaluate_task12.py final_task_12/task1_dev.predict solutions/task1_dev.solution
+Precision : 0.7941
+Recall : 0.8100
+F1 : 0.8020
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_12/evaluate_task12.py final_task_12/task2_train.predict solutions/task2_train.solution
+Precision : 0.6265
+Recall : 0.8166
+F1 : 0.7090
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_12/evaluate_task12.py final_task_12/task2_dev.predict solutions/task2_dev.solution
+Precision : 0.5145
+Recall : 0.7889
+F1 : 0.6228

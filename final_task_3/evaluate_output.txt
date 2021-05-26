@@ -1,0 +1,49 @@
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task3.py final_task_3/task3_train.predict task3public9may/train.txt
+processed 21623 tokens with 2846 phrases; found: 2779 phrases; correct: 2310.
+accuracy:  93.13%; (non-O)
+accuracy:  96.93%; precision:  83.12%; recall:  81.17%; FB1:  82.13
+
+            etime: precision:   6.05%; recall:   4.94%; FB1:   5.44
+            fname: precision:  88.39%; recall:  64.29%; FB1:  74.44
+              loc: precision:   8.87%; recall:  10.48%; FB1:   9.61
+        organizer: precision:  96.07%; recall:  95.26%; FB1:  95.66
+      participant: precision:  96.45%; recall:  97.41%; FB1:  96.93
+            place: precision:  86.48%; recall:  82.94%; FB1:  84.67
+           target: precision:  88.82%; recall:  93.79%; FB1:  91.24
+          trigger: precision:  96.09%; recall:  95.64%; FB1:  95.86
+Precision : 83.1234
+Recall : 81.1665
+F1 : 82.1333
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task3.py final_task_3/task3_dev.predict task3public9may/dev.txt
+processed 3188 tokens with 419 phrases; found: 417 phrases; correct: 210.
+accuracy:  59.73%; (non-O)
+accuracy:  85.04%; precision:  50.36%; recall:  50.12%; FB1:  50.24
+
+            etime: precision:   3.70%; recall:   3.23%; FB1:   3.45
+            fname: precision:  12.50%; recall:   7.14%; FB1:   9.09
+              loc: precision:   0.00%; recall:   0.00%; FB1:   0.00
+        organizer: precision:  52.27%; recall:  43.40%; FB1:  47.42
+      participant: precision:  64.71%; recall:  60.44%; FB1:  62.50
+            place: precision:  64.86%; recall:  48.00%; FB1:  55.17
+           target: precision:  13.43%; recall:  40.91%; FB1:  20.22
+          trigger: precision:  76.19%; recall:  75.00%; FB1:  75.59
+Precision : 50.3597
+Recall : 50.1193
+F1 : 50.2392
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task12.py final_task_3/task1_train.predict solutions/task1_train.solution
+Precision : 0.9857
+Recall : 0.9793
+F1 : 0.9825
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task12.py final_task_3/task1_dev.predict solutions/task1_dev.solution
+Precision : 0.8431
+Recall : 0.8776
+F1 : 0.8600
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task12.py final_task_3/task2_train.predict solutions/task2_train.solution
+Precision : 0.8694
+Recall : 0.9652
+F1 : 0.9148
+(base) ben@godzilla:~/github/clef2019_protestnews/analysis$ python final_task_3/evaluate_task12.py final_task_3/task2_dev.predict solutions/task2_dev.solution
+Precision : 0.5507
+Recall : 0.8352
+F1 : 0.6638
+

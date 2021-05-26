@@ -112,3 +112,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.bin
+*.DS_Store
+*.zip
+data/Document/*.json
+data/Sentence/*.json
+public_data/phase1/*.data
+public_data/phase2/*.data
+public_data/task3_sample.txt
+solutions/*
+task3public9may/*data
+task3public9may/*txt
